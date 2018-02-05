@@ -1,25 +1,167 @@
-.footer {
-  background: #F4F4F4;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: rgba(0, 0, 0, 0.3); }
+/*
+Error: Undefined variable: "$custom-blue".
+        on line 18 of /Users/simonabraham/code/Nomis223/middleman-airbnb/source/stylesheets/components/footer.scss
 
-.footer-links {
-  display: flex;
-  align-items: center; }
+13:   .footer-links {
+14:     display: flex;
+15:     align-items: center;
+16:     
+17:     a {
+18:       color: $custom-blue;
+19:       opacity: 0.15;
+20:       text-decoration: none;
+21:       font-size: 24px;
+22:       padding: 0px 10px;
+23:       
 
-.footer-links a {
-  color: black;
-  opacity: 0.15;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px; }
-
-.footer-links a:hover {
-  opacity: 1; }
-
-.footer .fa-heart {
-  color: #D23333; }
+Backtrace:
+/Users/simonabraham/code/Nomis223/middleman-airbnb/source/stylesheets/components/footer.scss:18
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/renderers/sass.rb:68:in `evaluate'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/tilt-2.0.8/lib/tilt/template.rb:109:in `render'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/file_renderer.rb:79:in `render'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/template_renderer.rb:184:in `_render_with_all_renderers'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/template_renderer.rb:147:in `block in render'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/activesupport-5.0.6/lib/active_support/notifications.rb:166:in `instrument'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/util.rb:21:in `instrument'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/template_renderer.rb:146:in `render'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/sitemap/resource.rb:154:in `render'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/rack.rb:112:in `process_request'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/rack.rb:66:in `block in call'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/rack.rb:65:in `catch'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/rack.rb:65:in `call'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/urlmap.rb:68:in `block in call'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/urlmap.rb:53:in `each'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/urlmap.rb:53:in `call'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/extensions/minify_javascript.rb:55:in `call'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/extensions/minify_css.rb:63:in `call'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-autoprefixer-2.8.0/lib/middleman-autoprefixer/extension.rb:48:in `call'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/core_extensions/inline_url_rewriter.rb:74:in `call'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/head.rb:12:in `call'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/lint.rb:49:in `_call'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/lint.rb:37:in `call'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/builder.rb:153:in `call'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/mock.rb:74:in `request'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/rack-2.0.4/lib/rack/mock.rb:56:in `get'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:232:in `block in output_resource'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/activesupport-5.0.6/lib/active_support/notifications.rb:166:in `instrument'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/util.rb:21:in `instrument'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:225:in `output_resource'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/parallel-1.12.1/lib/parallel.rb:484:in `call_with_index'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/parallel-1.12.1/lib/parallel.rb:455:in `process_incoming_jobs'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/parallel-1.12.1/lib/parallel.rb:437:in `block in worker'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/parallel-1.12.1/lib/parallel.rb:428:in `fork'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/parallel-1.12.1/lib/parallel.rb:428:in `worker'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/parallel-1.12.1/lib/parallel.rb:419:in `block in create_workers'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/parallel-1.12.1/lib/parallel.rb:418:in `each'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/parallel-1.12.1/lib/parallel.rb:418:in `each_with_index'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/parallel-1.12.1/lib/parallel.rb:418:in `create_workers'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/parallel-1.12.1/lib/parallel.rb:358:in `work_in_processes'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/parallel-1.12.1/lib/parallel.rb:264:in `map'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:137:in `output_resources'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:131:in `output_files'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:71:in `block in run!'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/activesupport-5.0.6/lib/active_support/notifications.rb:166:in `instrument'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/util.rb:21:in `instrument'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/builder.rb:70:in `run!'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_reference.rb:43:in `send_to'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/call_with.rb:76:in `call_with'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/contracts-0.13.0/lib/contracts/method_handler.rb:138:in `block in redefine_method'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-cli-4.2.1/lib/middleman-cli/build.rb:80:in `block in build'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/activesupport-5.0.6/lib/active_support/notifications.rb:166:in `instrument'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-core-4.2.1/lib/middleman-core/util.rb:21:in `instrument'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-cli-4.2.1/lib/middleman-cli/build.rb:79:in `build'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor/invocation.rb:133:in `block in invoke_all'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor/invocation.rb:133:in `each'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor/invocation.rb:133:in `map'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor/invocation.rb:133:in `invoke_all'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor/group.rb:232:in `dispatch'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor/invocation.rb:115:in `invoke'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor.rb:40:in `block in register'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor.rb:387:in `dispatch'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/thor-0.20.0/lib/thor/base.rb:466:in `start'
+/Users/simonabraham/.rbenv/versions/2.4.3/lib/ruby/gems/2.4.0/gems/middleman-cli-4.2.1/bin/middleman:70:in `<top (required)>'
+/Users/simonabraham/.rbenv/versions/2.4.3/bin/middleman:23:in `load'
+/Users/simonabraham/.rbenv/versions/2.4.3/bin/middleman:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$custom-blue\".\A         on line 18 of /Users/simonabraham/code/Nomis223/middleman-airbnb/source/stylesheets/components/footer.scss\A \A 13:   .footer-links {\A 14:     display: flex;\A 15:     align-items: center;\A 16:     \A 17:     a {\A 18:       color: $custom-blue;\A 19:       opacity: 0.15;\A 20:       text-decoration: none;\A 21:       font-size: 24px;\A 22:       padding: 0px 10px;\A 23:       "; }
