@@ -1,0 +1,21 @@
+.header-flat-details{
+	display: flex;
+	align-items: center;
+}
+.header-flat-name{
+	padding: 36px;
+}
+.header-flat-owner {
+	padding: 20px;
+	text-align: inherit;
+}
+.text-center {
+	text-align: center;
+}
+
+.f-group {
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px
+}
