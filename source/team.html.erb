@@ -1,0 +1,9 @@
+<ul class="list-inline text-center">
+  <% data.users.each do |gh_user| %>
+    <li>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_user.github_nickname}", class: "img-circle" %>
+      <h3><%= gh_user.name.capitalize %></h3>
+    </li>
+  <% end %>
+</ul>
+
